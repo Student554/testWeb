@@ -1,2 +1,126 @@
-body {font-family: "Lato", sans-serif}
-.mySlides {display: none}
+hgroup {
+    text-align: center;
+}
+hgroup h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+hgroup h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+hgroup h2 a {
+    float: none;
+    border: none;
+}
+body {
+    font-family: 'Prompt', sans-serif;
+    background-color: #282828;
+    margin: 0;
+    max-width: 400px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.time{
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
+.main{
+    max-width: 650px;
+    background: #282828;
+}
+.coins{
+    width:100%;padding: 15px 0px;  /* background: linear-gradient(#c3c3c3, white);border-radius: 4px; */
+}
+td{
+    border: 1px solid #4e4d47;
+    padding: 1px;
+    line-height: 30px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 300;
+}
+.tabel{
+    width: 100%;
+    font-family: 'Prompt', sans-serif;
+    font-size: 14px;
+    color: #afafaf;
+    padding: 4px;
+    background: #282828;
+}
+.chack{
+    text-align: -webkit-center;
+    cursor: pointer;
+    min-width: 40px;
+}
+.a{ background: #2b9800; color: #DDD;}
+.b{ color: #ffffff; background: #ec0000;}
+.btn{ border: 0; width: 100%; padding: 9px; color: #fff; background: #d80000; font-family: 'Prompt', sans-serif; cursor: pointer; border-radius: 0;}
+.btn:hover{ border: 0; width: 100%; color: #fff; background: #c10000; }
+
+#img_p{
+    width: 100%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #ffffff00;
+    margin: auto;
+    padding: 0px;
+    text-align: -webkit-center;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0);
+    border: 0;
+}
+
+/* The Close Button */
+.close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: 200;
+    padding: 0px 15px;
+    /* margin-left: 44px; */
+    /* background: #FFF; */
+    width: 39px;
+    opacity: inherit;
+    text-shadow: 0 0px 0 #fff;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img_txt{ max-width: 80px; }
+
+@media screen and (max-width: 992px) {
+    .img_txt{ max-width: 93px; }
+    #img_ads{ width: 100%; }
+}
+
+@media screen and (max-width: 667px) {
+    .img_txt{ max-width: 90px; }
+}
+
+@media screen and (max-width: 320px) {
+    .img_txt{ max-width: 77px; }
+}

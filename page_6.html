@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html><head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-    <title>Baccarat ALGORITHM 2018 -TrichRich-</title>
-    <link href="https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Mitr:200,300,400,500,600,700|Prompt:100,100i,200,200i,300,300i,400,400i,500,500i,600,700,700i,800,800i,900,900i"
-          rel="stylesheet">
+    <title>ALGORITHM 2018  -  RICHCASINO -</title>
+    <link href="https://fonts.googleapis.com/css?family=Kanit:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Mitr:200,300,400,500,600,700|Prompt:100,100i,200,200i,300,300i,400,400i,500,500i,600,700,700i,800,800i,900,900i" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <link rel="stylesheet" href="css/style.css">
     <script>
@@ -20,48 +16,67 @@
         var c_2 = "";
         var c_3 = "";
         var c_4 = "";
+        var c_5 = "";
+        var c_6 = "";
         var num = 0;
 
-        function random() {
+        function random(){
             num++;
             var coins_1 = Math.floor((Math.random() * 2) + 1);
             var coins_2 = Math.floor((Math.random() * 2) + 1);
             var coins_3 = Math.floor((Math.random() * 2) + 1);
             var coins_4 = Math.floor((Math.random() * 2) + 1);
-
+            var coins_5 = Math.floor((Math.random() * 2) + 1);
+            var coins_6 = Math.floor((Math.random() * 2) + 1);
             //alert(coins_1);
 
             // coins_1 //
-            if (coins_1 == 1) {
+            if(coins_1 == 1){
                 document.getElementById("coins_1").innerHTML = '<img src="img/P.png" class="img_txt">';
                 c_1 = "P";
-            } else {
+            }else{
                 document.getElementById("coins_1").innerHTML = '<img src="img/B.png" class="img_txt">';
                 c_1 = "B";
             }
             // coins_2 //
-            if (coins_2 == 1) {
+            if(coins_2 == 1){
                 document.getElementById("coins_2").innerHTML = '<img src="img/P.png" class="img_txt">';
                 c_2 = "P";
-            } else {
+            }else{
                 document.getElementById("coins_2").innerHTML = '<img src="img/B.png" class="img_txt">';
                 c_2 = "B";
             }
             // coins_3 //
-            if (coins_3 == 1) {
+            if(coins_3 == 1){
                 document.getElementById("coins_3").innerHTML = '<img src="img/P.png" class="img_txt">';
                 c_3 = "P";
-            } else {
+            }else{
                 document.getElementById("coins_3").innerHTML = '<img src="img/B.png" class="img_txt">';
                 c_3 = "B";
             }
             // coins_4 //
-            if (coins_4 == 1) {
+            if(coins_4 == 1){
                 document.getElementById("coins_4").innerHTML = '<img src="img/P.png" class="img_txt">';
                 c_4 = "P";
-            } else {
+            }else{
                 document.getElementById("coins_4").innerHTML = '<img src="img/B.png" class="img_txt">';
                 c_4 = "B";
+            }
+            // coins_5 //
+            if(coins_5 == 1){
+                document.getElementById("coins_5").innerHTML = '<img src="img/P.png" class="img_txt">';
+                c_5 = "P";
+            }else{
+                document.getElementById("coins_5").innerHTML = '<img src="img/B.png" class="img_txt">';
+                c_5 = "B";
+            }
+            // coins_6 //
+            if(coins_5 == 1){
+                document.getElementById("coins_6").innerHTML = '<img src="img/P.png" class="img_txt">';
+                c_6 = "P";
+            }else{
+                document.getElementById("coins_6").innerHTML = '<img src="img/B.png" class="img_txt">';
+                c_6 = "B";
             }
 
 
@@ -69,18 +84,18 @@
             var row = table.insertRow(0);
             var cell1 = row.insertCell(0);
             var cell2 = row.insertCell(1);
-            cell1.innerHTML = " -  เลือกแทง 4 ครั้งที " + num + " : " + c_1 + c_2 + c_3 + c_4;
-            cell2.innerHTML = "<div class='chack' id=chack_" + num + "><font onClick=chack(" + num + ",0)>ถูก</font> <font onClick=chack(" + num + ",1)>ผิด</font></div>";
+            cell1.innerHTML = " -  เลือกแทง 6 ครั้งที "+num+" : "+c_1+c_2+c_3+c_4+c_5+c_6;
+            cell2.innerHTML = "<div class='chack' id=chack_"+num+"><font onClick=chack("+num+",0)>ถูก</font> <font onClick=chack("+num+",1)>ผิด</font></div>";
 
         }
 
-        function chack(cval1, cval2) {
+        function chack(cval1,cval2){
             //alert(cval1);
             //alert(cval2);
-            if (cval2 == 0) {
-                document.getElementById("chack_" + cval1).innerHTML = '<div class=a><img src="img/check.svg" style="max-width: 11px;"> ถูก</div>';
-            } else {
-                document.getElementById("chack_" + cval1).innerHTML = '<div class=b><img src="img/close.svg" style="max-width: 11px;"> ผิด</div>';
+            if(cval2 == 0){
+                document.getElementById("chack_"+cval1).innerHTML = '<div class=a><img src="./img/check.svg" style="max-width: 11px;"> ถูก</div>';
+            }else{
+                document.getElementById("chack_"+cval1).innerHTML = '<div class=b><img src="./img/close.svg" style="max-width: 11px;"> ผิด</div>';
             }
 
         }
@@ -89,23 +104,23 @@
 <body>
 <div class="main">
     <a href="https://line.me/R/ti/p/%40eeee"><img src="./img/ads.jpg" id="img_p" border="0"></a>
+    <a href="index.html">
+        <img src="./img/but1.png" class="text-pop-link" width="115" height="50" border="0"></a>
     <a href="page_5.html">
         <img src="./img/but2.png" class="text-pop-link" width="115" height="50" border="0"></a>
-    <a href="page_6.html">
-        <img src="./img/but3.png" class="text-pop-link" width="115" height="50" border="0"></a>
     <a href="page_7.html">
         <img src="./img/but4.png" class="text-pop-link" width="115" height="50" border="0"></a>
-
     <div class="coins">
         <a href="https://line.me/R/ti/p/%40eeee"><img src="./img/casino1.jpg" border="0" id="img_p"></a>
         <div id="coins_1" style="float: left;"><img src="./img/P.png" class="img_txt"></div>
         <div id="coins_2" style="float: left;"><img src="./img/P.png" class="img_txt"></div>
         <div id="coins_3" style="float: left;"><img src="./img/P.png" class="img_txt"></div>
         <div id="coins_4" style="float: left;"><img src="./img/P.png" class="img_txt"></div>
-
+        <div id="coins_5" style="float: left;"><img src="./img/P.png" class="img_txt"></div>
+        <div id="coins_6" style="float: left;"><img src="./img/P.png" class="img_txt"></div>
 
     </div>
-    <input type="button" value="- BACCARAT ALGORITHM 4 GAMES -" class="btn" onclick="random()">
+    <input type="button" value="- BACCARAT ALGORITHM 6 GAMES -" class="btn" onclick="random()">
 
     <a href="https://line.me/R/ti/p/%40eeee" target="_blank">
         <img src="./img/ads/2.jpg" class="text-pop-link" id="myBtn" border="0" style="width: 100%; margin-top: 1px;">
@@ -129,21 +144,22 @@
     var span = document.getElementsByClassName("close")[0];
 
     // When the user clicks the button, open the modal
-    btn.onclick = function () {
+    btn.onclick = function() {
         modal.style.display = "block";
-    };
+    }
 
     // When the user clicks on <span> (x), close the modal
-    span.onclick = function () {
+    span.onclick = function() {
         modal.style.display = "none";
-    };
+    }
 
     // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
+    window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
         }
     }
 </script>
-</body>
-</html>
+
+
+</body></html>
